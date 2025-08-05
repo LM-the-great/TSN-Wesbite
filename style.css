@@ -28,3 +28,40 @@ h1 {
 .container p:first-of-type {
   font-size: 37px;
 }
+/* Fonts & Base */
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #0072ff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+/* Container for page content */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
